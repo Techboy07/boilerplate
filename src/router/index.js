@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     Component: App,
   },
   {
-    path: "/404",
+    path: "/*",
     Component: ErrorPage,
   },
 ]);
